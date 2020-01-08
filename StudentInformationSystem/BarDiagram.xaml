@@ -1,0 +1,10 @@
+﻿<Window x:Class="StudentInformationSystem.BarDiagram"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BarDiagram" Height="500" Width="500" WindowStartupLocation="CenterScreen">
+    <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <Label Content="Bar Diagram" HorizontalAlignment="Left" Margin="195,10,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="343,421,0,0" VerticalAlignment="Top" Width="75" FontFamily="Arial" Click="Button_Click" Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"/>
+
+    </Grid>
+</Window>
